@@ -188,10 +188,10 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/frontend-opt.js" type="text/javascript"></script>
 
-<script>
+<!-- <script>
   if (window.location.pathname === '/index.html') {
     window.history.replaceState(null, '', '/');
   }
-</script>
+</script> -->
 
 </html>
