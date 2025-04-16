@@ -46,7 +46,7 @@ $MetaDescription = "Nous avons créé une unique expérience
 
 
 // Liens 
-$urlsite = "https://github.com/Tekass13/GTA";     // URL de votre site
+$urlsite = "https://tekass13.github.io/GTA/";     // URL de votre site
 $urldiscord = "https://discord.gg/MTNTgjph";  //Discord 
 $urlshop = "https://eliminate.fr/partner/sharks-united-esportgmail-com/";  // Boutique TEBEX 
 $urlyoutube = "https://www.youtube.com/@sharksunitede-sports/featured"; // youtube
