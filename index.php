@@ -68,117 +68,117 @@
     </div>
   </div>
   <section class="container servers">
-  <hgroup class="text-center pb-3">
-    <h2><?php echo $TitreModuleBox ?></h2>
-    <p class="mt-4"><?php echo $DescritpionModuleBox ?>
-    </p>
-  </hgroup>
-  <div id="servers" class="row justify-content-center">
-    <div
-      data-serverid="1"
-      class="col-lg-4 col-md-6 col-sm-12 online my-5 serverinfo-div-1">
-      <div class="card mb-3">
-        <div class="card-body p-5 text-center">
-          <h6 class="text-white-50"><?php echo $SubTitleJoin ?></h6>
-          <h4 class="mb-0 text-white-75"> <?php echo $name ?> </h1>
-          </h4>
-          <div class="progress mt-4">
-            <div id="progress-bar-1" class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="2048"></div>
+    <hgroup class="text-center pb-3">
+      <h2><?php echo $TitreModuleBox ?></h2>
+      <p class="mt-4"><?php echo $DescritpionModuleBox ?>
+      </p>
+    </hgroup>
+    <div id="servers" class="row justify-content-center">
+      <div
+        data-serverid="1"
+        class="col-lg-4 col-md-6 col-sm-12 online my-5 serverinfo-div-1">
+        <div class="card mb-3">
+          <div class="card-body p-5 text-center">
+            <h6 class="text-white-50"><?php echo $SubTitleJoin ?></h6>
+            <h4 class="mb-0 text-white-75"> <?php echo $name ?> </h1>
+            </h4>
+            <div class="progress mt-4">
+              <div id="progress-bar-1" class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="2048"></div>
+            </div>
+            <p id="players-online-1" class="mb-0 mt-3 text-uppercase text-white-75"><?php echo $PlayerOnLine ?></p>
           </div>
-          <p id="players-online-1" class="mb-0 mt-3 text-uppercase text-white-75"><?php echo $PlayerOnLine ?></p>
+        </div>
+        <div class="btn-group w-100 text-center">
+          <a class="d-block w-100 p-3 b-secondary mr-2"
+            href="<?php echo $urldiscord ?>"><?php echo $Tdiscord ?></a>
+          <a id="discord-link2"
+            class="d-block w-100 py-3 b-accent ml-2"
+            href="fivem://connect/cfx.re/join/<?php echo $ServerURL ?>"><?php echo $BJoin ?></a>
         </div>
       </div>
-      <div class="btn-group w-100 text-center">
-        <a class="d-block w-100 p-3 b-secondary mr-2"
-          href="<?php echo $urldiscord ?>"><?php echo $Tdiscord ?></a>
-        <a id="discord-link2"
-          class="d-block w-100 py-3 b-accent ml-2"
-          href="fivem://connect/cfx.re/join/<?php echo $ServerURL ?>"><?php echo $BJoin ?></a>
+    </div>
+  </section>
+  <section class="social">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6 col-md-12">
+          <hgroup class="pb-3">
+            <h2><?php echo $TitreModuleDescr ?></h2>
+            <p class="mt-4">
+              <?php echo $ModuleDescr ?>
+            </p>
+          </hgroup>
+        </div>
+        <div class="col-lg-6 col-md-12 links">
+          <a href="<?php echo $urldiscord ?>"
+            class="card card-body p-0 d-flex align-items-center mb-4">
+            <div><i class="fab fa-discord"></i></div>
+            <div class="py-5 pr-5 flex-grow-1">
+              <?php echo $DescrDiscord ?>
+            </div>
+            <div class="py-5 pr-5">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </a>
+          <a
+            href="<?php echo $urlshop ?>"
+            class="card card-body p-0 d-flex align-items-center mb-4">
+            <div><i class="fas fa-shopping-bag"></i></div>
+            <div class="py-5 pr-5 flex-grow-1">
+              <?php echo $DescrShop ?>
+            </div>
+            <div class="py-5 pr-5">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </a>
+          <a
+            href="<?php echo $rules ?>"
+            class="card card-body p-0 d-flex align-items-center mb-4">
+            <div><i class="fas fa-newspaper"></i></div>
+            <div class="py-5 pr-5 flex-grow-1">
+              <?php echo $DescrRules ?>
+            </div>
+            <div class="py-5 pr-5">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="social">
-  <div class="container">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-lg-6 col-md-12">
-        <hgroup class="pb-3">
-          <h2><?php echo $TitreModuleDescr ?></h2>
-          <p class="mt-4">
-            <?php echo $ModuleDescr ?>
-          </p>
-        </hgroup>
+  </section>
+  <footer class="text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-12 mb-4">
+          <h4><?php echo $Footer ?></h4>
+          <ul>
+            <li>
+              <a href="<?php echo $rules ?>"><?php echo $Trules ?></a>
+            </li>
+            <li>
+              <a href="<?php echo $StaffUp ?>"><?php echo $TFootherStaffUp ?></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-12 mb-4">
+          <h4><?php echo $Tsocial ?></h4>
+          <ul>
+            <li> <a id="discord-link" href="<?php echo $urldiscord ?>" target="_blank"><?php echo $Tdiscord ?></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-lg-6 col-md-12 links">
-        <a href="<?php echo $urldiscord ?>"
-          class="card card-body p-0 d-flex align-items-center mb-4">
-          <div><i class="fab fa-discord"></i></div>
-          <div class="py-5 pr-5 flex-grow-1">
-            <?php echo $DescrDiscord ?>
-          </div>
-          <div class="py-5 pr-5">
-            <i class="fas fa-arrow-right"></i>
-          </div>
-        </a>
-        <a
-          href="<?php echo $urlshop ?>"
-          class="card card-body p-0 d-flex align-items-center mb-4">
-          <div><i class="fas fa-shopping-bag"></i></div>
-          <div class="py-5 pr-5 flex-grow-1">
-            <?php echo $DescrShop ?>
-          </div>
-          <div class="py-5 pr-5">
-            <i class="fas fa-arrow-right"></i>
-          </div>
-        </a>
-        <a
-          href="<?php echo $rules ?>"
-          class="card card-body p-0 d-flex align-items-center mb-4">
-          <div><i class="fas fa-newspaper"></i></div>
-          <div class="py-5 pr-5 flex-grow-1">
-            <?php echo $DescrRules ?>
-          </div>
-          <div class="py-5 pr-5">
-            <i class="fas fa-arrow-right"></i>
-          </div>
-        </a>
+      <hr />
+      <h1> <?php echo $SiteName ?> </h1>
+      </h1>
+      <hr />
+      <div class="row justify-content-center legal mt-5">
+        <div class="col-md-6"></div>
       </div>
     </div>
-  </div>
-</section>
-<footer class="text-center">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-4 col-sm-12 mb-4">
-        <h4><?php echo $Footer ?></h4>
-        <ul>
-          <li>
-            <a href="<?php echo $rules ?>"><?php echo $Trules ?></a>
-          </li>
-          <li>
-            <a href="<?php echo $StaffUp ?>"><?php echo $TFootherStaffUp ?></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4 col-sm-12 mb-4">
-        <h4><?php echo $Tsocial ?></h4>
-        <ul>
-          <li> <a id="discord-link" href="<?php echo $urldiscord ?>" target="_blank"><?php echo $Tdiscord ?></a></li>
-        </ul>
-      </div>
     </div>
-    <hr />
-    <h1> <?php echo $SiteName ?> </h1>
-    </h1>
-    <hr />
-    <div class="row justify-content-center legal mt-5">
-      <div class="col-md-6"></div>
     </div>
-  </div>
-  </div>
-  </div>
-  </div>
-</footer>
+    </div>
+  </footer>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
