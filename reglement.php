@@ -1,6 +1,7 @@
 <?php require('config.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title><?php echo $RulesTitleSite ?></title>
@@ -31,30 +32,31 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/frontend-opt.js" type="text/javascript"></script>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a id="goto-home" class="nav-link" href="<?php echo $urlsite ?>"><?php echo $home ?></a>
-            </li>
-            <li class="nav-item">
-              <a id="goto-servers" class="nav-link" href="<?php echo $urldiscord ?>" target="_blank"><?php echo $Tdiscord ?></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo $urlshop ?>" target="_blank"><?php echo $Tshop ?> </a>
-            </li>            
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo $rules ?>"><?php echo $Trules ?></a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a id="goto-home" class="nav-link" href="<?php echo $urlsite ?>"><?php echo $home ?></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="goto-servers" class="nav-link" href="<?php echo $urldiscord ?>" target="_blank"><?php echo $Tdiscord ?></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo $urlshop ?>" target="_blank"><?php echo $Tshop ?> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo $rules ?>"><?php echo $Trules ?></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </nav>         
+    </nav>
     </div>
     <div id="fixed-container">
         <section id="reglement">
@@ -67,94 +69,108 @@
                     <div class="main-dropdown">
                         <div id="accueil-reglement">
                             <a href="<?php echo $urlsite ?>">
-                                <button class="main-dropbtn"><?php echo $RulesCatzero ?> <span class="width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6"/></svg></span></button>
+                                <button class="main-dropbtn"><?php echo $RulesCatzero ?> <span class="width=" 24" height="24" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6" /></svg>
+                                    </span></button>
                             </a>
                         </div>
                     </div>
                 </div>
                 <hr class="separator">
                 <h3 class="section-title"><?php echo $Trules ?> <?php echo $SiteName ?>
-            </head>
-            </h3>
-                    <div class="main-dropdown">
-                        <button class="main-dropbtn"><?php echo $RulesCatOne ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6"/></svg></span></button>
-                        <div class="main-dropdown-content">
-                            <a href="#discord"><?php echo $RulesSubTitleCatone ?></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="main-dropdown-container">
-                    <div class="main-dropdown">
-                        <button class="main-dropbtn"><?php echo $RulesCatTwo ?><span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6"/></svg></span></button>
-                        <div class="main-dropdown-content">
-                            <a href="#reglementhrp"><?php echo $RulesSubTitleCattwoeone ?></a>
-                            <a href="#ticketreport"><?php echo $RulesSubTitleCattwotwo ?></a>
-                            <a href="#sanction"><?php echo $RulesSubTitleCattwotree ?></a>
-                            <a href="#reglementrp"><?php echo $RulesSubTitleCattwofour ?></a>
-                            <a href="#regleasavoir"><?php echo $RulesSubTitleCattwofive ?></a>
-                            <a href="#zonessafes"><?php echo $RulesSubTitleCattwosix ?></a>
-                            <a href="#packgraphique"><?php echo $RulesSubTitleCattwoseven ?></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="main-dropdown-container extra-space">
-                    <div class="main-dropdown">
-                        <button class="main-dropbtn"><?php echo $RulesCatTree ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6"/></svg></span></button>
-                        <div class="main-dropdown-content">
-                            <a href="#masque"><?php echo $RulesSubTitleCattreeone ?></a>
-                            <a href="#groupegangorganisation"><?php echo $RulesSubTitleCattreetwo ?></a>
-                            <a href="#systeme-paliers"><?php echo $RulesSubTitleCattreetree ?></a>
-                            <a href="#progression-paliers"><?php echo $RulesSubTitleCattreefour ?></a>
-                            <a href="#voldevehicule"><?php echo $RulesSubTitleCattreefive ?></a>
-                            <a href="#alliance"><?php echo $RulesSubTitleCattreesix ?></a>
-                            <a href="#trafic"><?php echo $RulesSubTitleCattreeseven ?></a>
-                            <a href="#tir"><?php echo $RulesSubTitleCattreeheight ?> </a>
-                            <a href="#loot"><?php echo $RulesSubTitleCattreenine ?></a>
-                            <a href="#labodedrogue"><?php echo $RulesSubTitleCattreeten ?></a>
-                            <a href="#prisedotage"><?php echo $RulesSubTitleCattreeeleven ?></a>
-                            <a href="#mortrp"><?php echo $RulesSubTitleCattreetwlv ?></a>
-                            <a href="#gunfight"><?php echo $RulesSubTitleCattreetrt ?></a>
-                            <a href="#vehicule"><?php echo $RulesSubTitleCattreefout ?></a>
-                            <a href="#attaqueQG"><?php echo $RulesSubTitleCattreefivt ?></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="main-dropdown-container">
-                    <div class="main-dropdown">
-                        <button class="main-dropbtn"><?php echo $RulesCatFour ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6"/></svg></span></button>
-                        <div class="main-dropdown-content">
-                            <a href="#reglement-entreprises"><?php echo $RulesSubTitleCatfourone ?></a>
-                            <a href="#concessionnaire"><?php echo $RulesSubTitleCatfourtwo ?></a>
-                            <a href="#mecano"><?php echo $RulesSubTitleCatfourtree ?></a>
-                            <a href="#lspdbcso"><?php echo $RulesSubTitleCatfourfour ?></a>
-                            <a href="#hierarchielspd"><?php echo $RulesSubTitleCatfourfive ?></a>
-                            <a href="#hierarchiebcso"><?php echo $RulesSubTitleCatfoursix ?></a>
-                            <a href="#defcon"><?php echo $RulesSubTitleCatfourseven ?></a>
-                            <a href="#reglement-ems"><?php echo $RulesSubTitleCatfourheight ?></a>
-                            <a href="#autre"><?php echo $RulesSubTitleCatfournine ?></a>
-                        </div>
-                    </div>
-                </div>
-                <h3 class="section-title"><?php echo $Twiki ?></h3>
-                <div class="main-dropdown-container">
-                    <div class="main-dropdown">
-                        <button class="main-dropbtn"><?php echo $WCatshop ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6"/></svg></span></button>
-                        <div class="main-dropdown-content">
-                            <a href="#coins"><?php echo $WCatSubshop ?></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="main-dropdown-container">
-                    <div class="main-dropdown">
-                        <button class="main-dropbtn"><?php echo $WCatBugs ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6"/></svg></span></button>
-                        <div class="main-dropdown-content">
-                            <a href="#signalez-un-bug"><?php echo $WCatSubBugs ?></a>
-                        </div>
+                    </head>
+                </h3>
+                <div class="main-dropdown">
+                    <button class="main-dropbtn"><?php echo $RulesCatOne ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6" />
+                            </svg></span></button>
+                    <div class="main-dropdown-content">
+                        <a href="#discord"><?php echo $RulesSubTitleCatone ?></a>
                     </div>
                 </div>
             </div>
-        </div>
-        </section>
+            <div class="main-dropdown-container">
+                <div class="main-dropdown">
+                    <button class="main-dropbtn"><?php echo $RulesCatTwo ?><span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6" />
+                            </svg></span></button>
+                    <div class="main-dropdown-content">
+                        <a href="#reglementhrp"><?php echo $RulesSubTitleCattwoeone ?></a>
+                        <a href="#ticketreport"><?php echo $RulesSubTitleCattwotwo ?></a>
+                        <a href="#sanction"><?php echo $RulesSubTitleCattwotree ?></a>
+                        <a href="#reglementrp"><?php echo $RulesSubTitleCattwofour ?></a>
+                        <a href="#regleasavoir"><?php echo $RulesSubTitleCattwofive ?></a>
+                        <a href="#zonessafes"><?php echo $RulesSubTitleCattwosix ?></a>
+                        <a href="#packgraphique"><?php echo $RulesSubTitleCattwoseven ?></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-dropdown-container extra-space">
+                <div class="main-dropdown">
+                    <button class="main-dropbtn"><?php echo $RulesCatTree ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6" />
+                            </svg></span></button>
+                    <div class="main-dropdown-content">
+                        <a href="#masque"><?php echo $RulesSubTitleCattreeone ?></a>
+                        <a href="#groupegangorganisation"><?php echo $RulesSubTitleCattreetwo ?></a>
+                        <a href="#systeme-paliers"><?php echo $RulesSubTitleCattreetree ?></a>
+                        <a href="#progression-paliers"><?php echo $RulesSubTitleCattreefour ?></a>
+                        <a href="#voldevehicule"><?php echo $RulesSubTitleCattreefive ?></a>
+                        <a href="#alliance"><?php echo $RulesSubTitleCattreesix ?></a>
+                        <a href="#trafic"><?php echo $RulesSubTitleCattreeseven ?></a>
+                        <a href="#tir"><?php echo $RulesSubTitleCattreeheight ?> </a>
+                        <a href="#loot"><?php echo $RulesSubTitleCattreenine ?></a>
+                        <a href="#labodedrogue"><?php echo $RulesSubTitleCattreeten ?></a>
+                        <a href="#prisedotage"><?php echo $RulesSubTitleCattreeeleven ?></a>
+                        <a href="#mortrp"><?php echo $RulesSubTitleCattreetwlv ?></a>
+                        <a href="#gunfight"><?php echo $RulesSubTitleCattreetrt ?></a>
+                        <a href="#vehicule"><?php echo $RulesSubTitleCattreefout ?></a>
+                        <a href="#attaqueQG"><?php echo $RulesSubTitleCattreefivt ?></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-dropdown-container">
+                <div class="main-dropdown">
+                    <button class="main-dropbtn"><?php echo $RulesCatFour ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6" />
+                            </svg></span></button>
+                    <div class="main-dropdown-content">
+                        <a href="#reglement-entreprises"><?php echo $RulesSubTitleCatfourone ?></a>
+                        <a href="#concessionnaire"><?php echo $RulesSubTitleCatfourtwo ?></a>
+                        <a href="#mecano"><?php echo $RulesSubTitleCatfourtree ?></a>
+                        <a href="#lspdbcso"><?php echo $RulesSubTitleCatfourfour ?></a>
+                        <a href="#hierarchielspd"><?php echo $RulesSubTitleCatfourfive ?></a>
+                        <a href="#hierarchiebcso"><?php echo $RulesSubTitleCatfoursix ?></a>
+                        <a href="#defcon"><?php echo $RulesSubTitleCatfourseven ?></a>
+                        <a href="#reglement-ems"><?php echo $RulesSubTitleCatfourheight ?></a>
+                        <a href="#autre"><?php echo $RulesSubTitleCatfournine ?></a>
+                    </div>
+                </div>
+            </div>
+            <h3 class="section-title"><?php echo $Twiki ?></h3>
+            <div class="main-dropdown-container">
+                <div class="main-dropdown">
+                    <button class="main-dropbtn"><?php echo $WCatshop ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6" />
+                            </svg></span></button>
+                    <div class="main-dropdown-content">
+                        <a href="#coins"><?php echo $WCatSubshop ?></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-dropdown-container">
+                <div class="main-dropdown">
+                    <button class="main-dropbtn"><?php echo $WCatBugs ?> <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" stroke="white" stroke-width="2" d="M9 6l6 6-6 6" />
+                            </svg></span></button>
+                    <div class="main-dropdown-content">
+                        <a href="#signalez-un-bug"><?php echo $WCatSubBugs ?></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </section>
     </div>
     <div class="annonces-nouvelles">
         <h2><?php echo $LeftNew ?></h2>
@@ -163,20 +179,21 @@
             <p><?php echo $TPatch ?> - <?php echo $DateLastUpdate ?>
                 <br>
                 <?php echo $UpdatesRules ?>
-                </p>
+            </p>
         </div>
         <div class="annonce">
             <h4>Staff</h4>
             <p><?php echo $Founder ?> <br>
-            <span style="color: #007a85;" ><?php echo $Dev ?><br>
-            <span style="color: #ff922b;" ><?php echo $Admin ?></span><br>
-            <span style="color: yellow" ><?php echo $Gerant ?></span><br>
-            <span style="color: green;"><?php echo $Responsable ?></span></p>
+                <span style="color: #007a85;"><?php echo $Dev ?><br>
+                    <span style="color: #ff922b;"><?php echo $Admin ?></span><br>
+                    <span style="color: yellow"><?php echo $Gerant ?></span><br>
+                    <span style="color: green;"><?php echo $Responsable ?></span>
+            </p>
         </div>
         <div class="last-update">
             <div class="annonce">
                 <h4><?php echo $LastUpRules ?></h4>
-                <i class="fas fa-pencil-alt"></i>  <?php echo $DateLastUpdate ?>
+                <i class="fas fa-pencil-alt"></i> <?php echo $DateLastUpdate ?>
             </div>
         </div>
     </div>
@@ -186,26 +203,26 @@
             <h2><strong> <?php echo $RulesSubTitleCatone ?></strong></h2>
         </div>
         <div class="parareglementhrp">
-        <?php echo $RulesSubCatOneone ?>
+            <?php echo $RulesSubCatOneone ?>
         </div>
     </section>
     <section id="systeme-paliers" class="anchor-target content-section">
-        <img src="aassets/img/pallier.jpg" alt="Image Description" class="reglement-image">
+        <img src="assets/img/pallier.jpg" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
             <h2><strong><?php echo $RulesSubTitleCattreetree ?></strong></h2>
         </div>
         <div class="parareglementhrp">
-        <?php echo $RulesSubCattreetree ?>
+            <?php echo $RulesSubCattreetree ?>
         </div>
     </section>
-    
+
     <section id="progression-paliers" class="anchor-target content-section">
         <img src="assets/img/pallier.jpg" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
-            <h2><strong>  <?php echo $RulesSubTitleCattreefour ?> </strong></h2>
+            <h2><strong> <?php echo $RulesSubTitleCattreefour ?> </strong></h2>
         </div>
         <div class="parareglementhrp">
-        <?php echo $RulesSubCattreefour ?>
+            <?php echo $RulesSubCattreefour ?>
         </div>
     </section>
     <section id="reglementhrp" class="anchor-target content-section active">
@@ -217,7 +234,7 @@
             <?php echo $RulesSubCatzero ?>
         </div>
     </section>
-    
+
     <section id="ticketreport" class="anchor-target content-section">
         <img src="assets/img/ticketreport.jpg" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
@@ -227,18 +244,18 @@
             <div class="zonesafe-alert-box">
                 <span class="zonesafe-alert-icon"></span>
                 <span class="zonesafe-alert-text">
-                <?php echo $RulesSubCattwotwo ?>
-        </div>
+                    <?php echo $RulesSubCattwotwo ?>
+            </div>
     </section>
-    
+
     <section id="sanction" class="anchor-target content-section">
         <img src="assets/img/sanctions.jpg" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
             <h2><strong> <?php echo $RulesSubTitleCattwotree ?></strong></h2>
         </div>
         <div class="parareglementhrp">
-        <?php echo $RulesSubCattwotree ?>
-            </div>
+            <?php echo $RulesSubCattwotree ?>
+        </div>
         </div>
     </section>
     <section id="reglementrp" class="anchor-target content-section">
@@ -250,21 +267,21 @@
             <div class="rp-dropdown">
                 <button class="rp-dropbtn">Le Powergaming</button>
                 <div class="rp-dropdown-content">
-                <?php echo $RulesSubCattwofour ?>
-                  
-              </div>
-        </div>
+                    <?php echo $RulesSubCattwofour ?>
+
+                </div>
+            </div>
     </section>
-    
+
     <section id="regleasavoir" class="anchor-target content-section">
         <img src="assets/img/regleasavoir.jpg" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
             <h2><strong><?php echo $RulesSubTitleCattwofive ?></strong></h2>
         </div>
         <div class="parareglementhrp">
-        <?php echo $RulesSubCattwofive ?>
+            <?php echo $RulesSubCattwofive ?>
         </div>
-    </section>     
+    </section>
     <section id="zonessafes" class="anchor-target content-section">
         <img src="assets/img/zonesafes.jpg" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
@@ -274,7 +291,7 @@
             <div class="zonesafe-alert-box">
                 <span class="zonesafe-alert-icon"></span>
                 <span class="zonesafe-alert-text">
-                <?php echo $RulesSubCattwosix ?>
+                    <?php echo $RulesSubCattwosix ?>
             </div>
         </div>
     </section>
@@ -285,8 +302,8 @@
             <h2><strong><?php echo $RulesSubTitleCattwoseven ?></strong></h2>
         </div>
         <div class="parareglementhrp">
-        <?php echo $RulesSubCattwoseven ?>
-            </div>
+            <?php echo $RulesSubCattwoseven ?>
+        </div>
         </div>
     </section>
     <section id="masque" class="anchor-target content-section">
@@ -295,18 +312,18 @@
             <h2><strong><?php echo $RulesSubTitleCattreeone ?></strong></h2>
         </div>
         <div class="parareglementhrp">
-        <?php echo $RulesSubCattreeone  ?>
-            </div>
+            <?php echo $RulesSubCattreeone  ?>
         </div>
-    </section>    
+        </div>
+    </section>
     <section id="groupegangorganisation" class="anchor-target content-section">
         <img src="assets/img/organisation.jpg" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
             <h2><strong><?php echo $RulesSubTitleCattreetwo ?></strong></h2>
         </div>
         <div class="parareglementhrp">
-        <?php echo $RulesSubCattreetwo ?>
-            </div>
+            <?php echo $RulesSubCattreetwo ?>
+        </div>
         </div>
     </section>
     <section id="systeme-paliers" class="anchor-target content-section">
@@ -448,7 +465,7 @@
                 </li>
             </ul>
         </div>
-    </section>    
+    </section>
     <section id="voldevehicule" class="anchor-target content-section">
         <img src="assets/img/voldevehicule.jpg" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
@@ -554,8 +571,8 @@
             </ul>
             <p><strong>Règles des Sommations :</strong></p>
             <ul>
-            <li>Les sommations comptent 3 tirs avant le début de la guerre.</li>
-            <li>Il doit y avoir une attente de 3 secondes entre chaque sommation.</li>
+                <li>Les sommations comptent 3 tirs avant le début de la guerre.</li>
+                <li>Il doit y avoir une attente de 3 secondes entre chaque sommation.</li>
             </ul>
             <div class="alert-box">
                 <span class="alert-icon"></span>
@@ -601,7 +618,7 @@
                 </span>
             </div>
         </div>
-    </section>    
+    </section>
     <section id="labodedrogue" class="anchor-target content-section">
         <img src="assets/img/laboratoire.jpg" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
@@ -1173,7 +1190,7 @@
         </div>
     </section>
     <section id="coins" class="anchor-target content-section">
-        <img src="aassets/img/neva-enhanced.png" alt="Image Description" class="reglement-image">
+        <img src="assets/img/neva-enhanced.png" alt="Image Description" class="reglement-image">
         <div class="titrereglement">
             <h2><strong>💰 | Coins</strong></h2>
         </div>
@@ -1221,51 +1238,62 @@
             </ul>
             <p>Pour signaler un bug, rendez-vous sur notre <a href="https://discord.gg/nevarp" target="_blank">Discord</a> et créez un ticket ou rendez vous sur le channel 🔧』bug-serveur.</p>
         </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6Hty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/check_server.js"></script>
-    <script src="assets/js/frontend-opt.js" type="text/javascript"></script>
-    <script>
-    function toggleMenu() {
-    var menu = document.getElementById('fixed-container');
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6Hty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/check_server.js"></script>
+        <script src="assets/js/frontend-opt.js" type="text/javascript"></script>
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById('fixed-container');
 
-    if (menu.classList.contains('active')) {
-      menu.animate([
-        { maxHeight: '500px', opacity: 1 },
-        { maxHeight: '0', opacity: 0 }
-      ], {
-        duration: 500,
-        easing: 'ease-in-out'
-      }).onfinish = function() {
-        menu.classList.remove('active');
-      };
-    } else {
-      menu.classList.add('active');
-      menu.animate([
-        { maxHeight: '0', opacity: 0 },
-        { maxHeight: '500px', opacity: 1 }
-      ], {
-        duration: 500,
-        easing: 'ease-in-out'
-      });
-    }
-  }
+                if (menu.classList.contains('active')) {
+                    menu.animate([{
+                            maxHeight: '500px',
+                            opacity: 1
+                        },
+                        {
+                            maxHeight: '0',
+                            opacity: 0
+                        }
+                    ], {
+                        duration: 500,
+                        easing: 'ease-in-out'
+                    }).onfinish = function() {
+                        menu.classList.remove('active');
+                    };
+                } else {
+                    menu.classList.add('active');
+                    menu.animate([{
+                            maxHeight: '0',
+                            opacity: 0
+                        },
+                        {
+                            maxHeight: '500px',
+                            opacity: 1
+                        }
+                    ], {
+                        duration: 500,
+                        easing: 'ease-in-out'
+                    });
+                }
+            }
 
-  // Fonction pour le défilement fluide
-  document.getElementById('goto-reglement').addEventListener('click', function(event) {
-    event.preventDefault();
-    var targetId = this.getAttribute('href').split('#')[1];
-    var targetElement = document.getElementById(targetId);
+            // Fonction pour le défilement fluide
+            document.getElementById('goto-reglement').addEventListener('click', function(event) {
+                event.preventDefault();
+                var targetId = this.getAttribute('href').split('#')[1];
+                var targetElement = document.getElementById(targetId);
 
-    if (targetElement) {
-      window.scrollTo({
-        top: targetElement.offsetTop,
-        behavior: 'smooth'
-      });
-    }
-  });
-    </script>
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        </script>
 </body>
+
 </html>
